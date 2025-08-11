@@ -1,12 +1,8 @@
-# buat folder & inisialisasi vite react
-npm create vite@latest shopeasy -- --template react
-cd shopeasy
+# Shopeasy — Demo E-commerce
 
-# install deps
-npm install
+Proyek demo e-commerce mirip Shopee.
+Tech: React + Vite + Tailwind CSS + Framer Motion.
 
-# tambahkan tailwind & framer-motion
-npm install -D tailwindcss postcss autoprefixer
-npm install framer-motion
-
-npx tailwindcss init -p
+Instruksi:
+1. `npm install`
+2. `npm run dev`
